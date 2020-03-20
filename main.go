@@ -16,8 +16,9 @@ func main() {
 
 	var guess int
 	guessnum := 5
-
+	fmt.Println("You have 5 tries to guess the correct number")
 	for guessnum > 0 {
+
 		fmt.Println("Please input your guess")
 		fmt.Scan(&guess)
 		if guess > secretNumber {
